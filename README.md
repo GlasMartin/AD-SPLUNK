@@ -52,7 +52,6 @@ Windows systems were configured with:
 
 - Splunk Universal Forwarder
 - Sysmon
-- Windows Event Log Collection
 
 Sysmon provided detailed endpoint telemetry including:
 
@@ -77,7 +76,6 @@ Active Directory allowed monitoring of:
 - Successful logins
 - Endpoint security events
 
-## Detection Engineering
 
 ### RDP Brute Force Detection
 
@@ -115,7 +113,7 @@ This provided additional visibility into endpoint activity beyond standard Windo
 
 ### RDP Brute Force Simulation
 
-A brute-force attack was simulated from Kali Linux against the Windows 11 employee endpoint.
+A brute-force attack was simulated from Kali Linux against the Windows 11 employee endpoint. Tried to use Crowbar, but since it is patched against Windows11 machines, I ended up simulating the attack by just entering wrong password trough xfreerdp3.
 
 Expected outcome:
 
@@ -124,19 +122,6 @@ Expected outcome:
 - Suspicious authentication activity identified
 - Attack source visible through Splunk searches
 
-### Active Directory Authentication Testing
-
-Domain authentication was tested by:
-
-- Logging in with domain users
-- Generating failed login attempts
-- Monitoring authentication events inside Splunk
-
-Expected outcome:
-
-- Authentication events collected successfully
-- User activity visible in Splunk
-- Security events available for investigation
 
 ## Results
 
@@ -172,8 +157,6 @@ This demonstrated how SIEM solutions can be used to investigate suspicious activ
 - Active Directory Administration
 - Windows Security Monitoring
 - Sysmon Configuration
-- Detection Engineering
-- Authentication Log Analysis
 - RDP Attack Detection
 - Security Event Investigation
 - Linux Administration
@@ -182,7 +165,7 @@ This demonstrated how SIEM solutions can be used to investigate suspicious activ
 
 ## Lessons Learned
 
-This project provided practical experience in building a small enterprise-style security monitoring environment.
+This project provided practical experience in building a small enterprise-style security monitoring environment. Excludin custom rulesets & alerts.
 
 The most valuable learning areas were understanding how endpoint telemetry is collected, how Windows authentication events can be analyzed, and how SIEM queries can be used to identify suspicious behavior.
 
@@ -194,11 +177,8 @@ The project also improved understanding of how attackers generate detectable act
 
 Potential enhancements include:
 
-- Splunk Enterprise Security deployment
 - MITRE ATT&CK technique mapping
 - Custom Splunk detection rules
-- Sigma rule integration
-- PowerShell attack detection
 - Malware execution monitoring
 - Additional domain endpoints
 - Threat intelligence integration
