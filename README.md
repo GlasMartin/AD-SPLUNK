@@ -218,10 +218,9 @@ Potential enhancements include:
  ![splunkserver](splunkserver.png)
  ![Splunk input](input.png)
  ![Crowbar](crowbar.png)
- ![freerdp](brutefrocesim.png)
+ ![freerdp](bruteforcesim.png)
  ![Splunk Event code](splunkevent.png)
  ![log](eventdata.png)
- ![freerdp](brutefrocesim.png)
 
 # Author
 
