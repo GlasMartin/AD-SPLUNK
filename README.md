@@ -212,7 +212,7 @@ Potential enhancements include:
 
 - ![Architecture](IP.png)
 - ![ADDC](ADDC.png)
-- ![Target to domain](target-link-successful.png)
+- ![Target to domain](target - link - successful.png)
 - ![ADDC users](addc-hr-ismo.png)
 - ![User](target-ilaitela-logon.png)
 
