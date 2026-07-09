@@ -208,13 +208,20 @@ Potential enhancements include:
 - Automated alerting and response workflows
 - Dashboard customization
 
-# Screenshots
+# Screenshots 
 
-- ![Architecture](IP.png)
-- ![ADDC](ADDC.png)
-- ![Target to domain](domainlink.png)
-- ![ADDC users](hrismo.png)
-- ![User](ilaitelalogon.png)
+ ![Architecture](IP.png)
+ ![ADDC](ADDC.png)
+ ![Target to domain](domainlink.png)
+ ![ADDC users](hrismo.png)
+ ![User](ilaitelalogon.png)
+ ![splunkserver](splunkserver.png)
+ ![Splunk input](input.png)
+ ![Crowbar](crowbar.png)
+ ![freerdp](brutefrocesim.png)
+ ![Splunk Event code](splunkevent.png)
+ ![log](eventdata.png)
+ ![freerdp](brutefrocesim.png)
 
 # Author
 
