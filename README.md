@@ -4,15 +4,15 @@ A hands-on cybersecurity laboratory project focused on deploying, configuring, a
 
 ## Project Overview
 
-The objective of this project was to gain practical experience with Security Information and Event Management (SIEM) technologies by deploying a centralized Splunk monitoring environment, collecting Windows security telemetry, and validating detection capabilities through simulated attacks.
+The objective of this project was to gain practical experience with Security Information and Event Management (SIEM) technologies by deploying a centralized Splunk monitoring environment, implementing an Active Directory Domain Controller (AD DC), collecting Windows security telemetry, and validating detection capabilities through simulated attacks.
 
-The laboratory environment was built around Active Directory authentication, endpoint monitoring, and attack simulation.
+The laboratory environment was built to simulate a small enterprise network by combining Active Directory authentication, endpoint monitoring, centralized log collection, and adversary simulation.
 
 The lab consists of:
 
 - Ubuntu Server running Splunk Enterprise
-- Windows Server 2022 running Active Directory Domain Services, Sysmon, and Splunk Universal Forwarder
-- Windows 11 employee workstation joined to the domain running Sysmon and Splunk Universal Forwarder
+- Windows Server 2022 running Active Directory Domain Services (AD DS), Sysmon, and Splunk Universal Forwarder
+- Windows 11 employee workstation joined to the Active Directory domain running Sysmon and Splunk Universal Forwarder
 - Kali Linux used for attack simulation
 
 ## Architecture
